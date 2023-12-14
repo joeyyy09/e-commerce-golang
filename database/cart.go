@@ -11,8 +11,6 @@ var(
 	ErrCantRemoveCartItem = errors.New("Can't remove cart item")
 	ErrCantGetItem = errors.New("Can't get item")
 	ErrCantBuyCartItem = errors.New("Can't buy cart item")
-
-
 )
 
 func AddProductToCart() gin.HandlerFunc {
